@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+  --primary-link:#1fb6ff;
+  --red:#dc2626;
+}
+
+body{
+	font-family: 'Montserrat',sans-serif;
+	max-width: 90%;
+	margin:0px auto;
+}
+
+ 
+
+hr{
+
+	margin:2rem 3rem;
+	height:12px;
+/*	background-image: linear-gradient(to right, blue , yellow);*/
+	background-color: var(--red);
+	border-radius: 1rem;
+
+}
+
+ /** container **/
+
+.container{
+	padding-right:1rem;
+	padding-left:1rem;
+}
+
+
+.center-container{
+	max-width: 600px;
+  width: 100%;
+	margin: auto;
+}
+
+
+/** projects **/
+
+
+
+/** Links **/
+
+.link{
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+
+}
+
+.primary-link{
+	background-color:var(--primary-link);
+	border-radius: 0.5rem;
+	color:white;
+}
+
+.secondary-link{
+	border-radius: 0.5rem;
+	border:1px  solid var(--primary-link);
+}
+
+.link-container{
+	text-align: center;
+}
+
+.link-center{
+	display: block;	
+	text-align: center;
+	width: 8rem;
+	margin: 1rem auto;
+}
+
+/** List **/
+
+.list-non-bullet{
+	list-style: none;
+}
+ 
+
+.list-item-inline{
+	display: inline;
+}
+
+
+.list-right-padding{
+	padding-right: 2.5rem;
+}
+
+
+
+/** navigation**/
+
+.navigation{
+	background-color: var(--primary-link);
+	border-bottom-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+/*	height: 5rem;*/
+	color: white;
+	padding: 0.5rem;
+}
+
+
+.navigation .nav-brand{
+	font-weight: bold;
+/*	text-align: left;*/
+
+}
+
+.navigation .link{
+	color: white;
+}
+
+.navigation .nav-pills{
+	text-align: right;
+}
+
+.navigation .link-active{
+	font-weight:bold;	
+}
+
+
+/** header **/
+
+.hero{
+	padding:2rem;
+}
+
+.hero .hero-img{
+	/* border:1px solid blue; */
+	max-width: 80%;
+	display:block;
+	margin: auto;
+}
+
+
+.hero .hero-heading{
+	text-align: center;
+}
+
+.hero .hero-padding{
+	padding: 2rem 0rem;
+}
+
+
+/** section **/
+
+.section{
+	padding: 1rem;
+}
+
+.section h1{
+	text-align: center;
+}
+
+
+
+.section .center-link{
+	display: block;	
+	text-align: center;
+	width: 8rem;
+	margin: 1rem auto;
+
+}
+
+.section .small-date{
+	display: block;
+	text-align: center;
+}
+
+.section .section-para{
+	text-align: center;
+}
+
+
+.section .section-padding{
+	margin-right: 2.5rem;
+}
+
+.section .section-gap{
+	padding: 2rem;
+	padding-bottom:2rem;
+}
+
+/** footer **/
+
+.footer-navigation{
+	background-color: var(--primary-link);
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	color: white;
+	padding: 1rem;
+	margin-top: 2rem;
+	text-align: center;
+
+}
+
+.footer .footer-header{
+	padding-bottom: 1rem;
+}
+
+.footer .list-non-bullet {
+	text-align: center;
+	padding-inline-start: 0px;
+
+}
+
+
+.footer .link{
+	border: 1px solid red;
+	border-radius: 1rem 1rem;
+	background-color: var(--red);
+	color: white;
+
+
+}
+
+/* resume */
+
+.resume-container{
+margin-bottom: 7em;
+}
+
+/* Download button */
+
+.make-download{
+	margin: 0  5px 1px 0 ;
+}
+
+
+
+
+
+
+
+
+
+
